@@ -1,4 +1,4 @@
-name: Main
+name: CI
 
 on: [push]
 
@@ -7,11 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [10.x 12.x]
+        node-version: [10.x, 12.x]
 
     steps:
       - uses: actions/checkout@v1
-      - name: Run tests with ${{ matrix.node-version }}
+      - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
