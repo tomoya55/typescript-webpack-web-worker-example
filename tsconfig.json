@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es2018",
+            "dom",
+        ],
+        "outDir": "dist",
+        "sourceMap": true,
+        "strict": true,
+        "target": "es2020",
+        "esModuleInterop": true,
+        "keyofStringsOnly": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "experimentalDecorators": true,
+    },
+    "include": [
+        "index.ts",
+    ]
+}

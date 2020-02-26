@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es2018",
+            "webworker",
+        ],
+        "outDir": "../dist",
+        "sourceMap": true,
+        "strict": true,
+        "target": "es2018",
+        "esModuleInterop": true,
+        "keyofStringsOnly": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "experimentalDecorators": true,
+    },
+    "include": [
+        "worker.ts"
+    ]
+}
